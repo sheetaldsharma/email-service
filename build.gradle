@@ -37,6 +37,8 @@ dependencies {
 	testRuntime('org.junit.jupiter:junit-jupiter-engine:5.4.2')
 	implementation 'org.springframework.kafka:spring-kafka'
 	compile "org.springframework.boot:spring-boot-starter-mail"
+	implementation 'org.springframework.kafka:spring-kafka-test'
+
 }
 
 dependencyManagement {

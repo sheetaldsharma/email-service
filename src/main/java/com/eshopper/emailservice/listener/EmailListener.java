@@ -12,8 +12,6 @@ public class EmailListener {
     @Autowired
     EmailService emailService;
 
-
-
     @KafkaListener(topics = "SEND_ORDER_PLACED_MAIL", groupId = "group_id")
     public void sendMailOnOrderPlaced(String message)
     {
